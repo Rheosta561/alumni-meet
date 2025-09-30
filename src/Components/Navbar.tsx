@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Menu, UserPlus, X } from "lucide-react";
 import { Button } from "./ui/button";
 import Logo from "../assets/DTU LOGO.jpeg";

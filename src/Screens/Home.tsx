@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import  { useState, useEffect, useRef } from "react";
 import SliderBox from '../Components/SliderBox';
 import Navbar from '../Components/Navbar';
 import Awards from '../Components/Awards/Awards';

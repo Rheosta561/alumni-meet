@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import Home from './Screens/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 

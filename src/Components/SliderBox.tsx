@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 // Example PromoCard data for DTU Alumni Meet 2025
 const promos = [

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import AwardCard from "./AwardCard";
 import AwardModal from "./AwardModal";
 import { awards } from "../../data";

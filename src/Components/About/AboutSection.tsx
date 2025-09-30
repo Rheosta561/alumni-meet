@@ -1,4 +1,4 @@
-import React from "react";
+
 import SectionWrapper from "./SectionWrapper";
 import MessageCard from "./MessageCard";
 import AlumniCard from "./AlumniCard";
