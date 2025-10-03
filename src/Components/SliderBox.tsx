@@ -1,7 +1,7 @@
 import  { useEffect, useState } from "react";
 import classof1967 from "../assets/img/Events/Class of 1967 event.jpg";
 import homecoming2022 from "../assets/img/Events/HomeComing2022.png";
-import mahesh from "../assets/img/Events/Mahesh.jpg"
+
 import rajSoin from "../assets/img/Events/Raj Soin Event.jpg";
 
 // Example PromoCard data for DTU Alumni Meet 2025

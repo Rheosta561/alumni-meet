@@ -1,6 +1,6 @@
 import { Calendar, MapPin, Users, Mic, Music, Trophy, Medal, Star, Award as AwardIcon } from "lucide-react";
-import classof1967 from "./assets/img/Events/Class of 1967 event.jpg";
-import homecoming2022 from "./assets/img/Events/HomeComing2022.png";
+
+
 import dean from "./assets/img/dean.jpg"
 import mahesh from "./assets/img/Events/Mahesh.jpg"
 export const EVENT_NAME = "AlumniMeet2025";
