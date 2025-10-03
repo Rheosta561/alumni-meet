@@ -17,7 +17,7 @@ export default function MessageCard({
 }: MessageCardProps) {
   return (
     <motion.div
-      className={`flex flex-col md:flex-row items-center gap-6 border rounded-lg p-4 bg-white shadow-sm ${
+      className={`flex flex-col  items-center gap-6 border rounded-lg p-4 bg-white shadow-sm ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
       initial={{ opacity: 0, y: 50 }}
@@ -37,7 +37,7 @@ export default function MessageCard({
       </div>
 
       {/* Message Section */}
-      <div className="w-full md:w-2/3">
+      <div className="w-full ">
         <h3 className="text-lg font-semibold">{title}</h3>
         <Quote className="w-4 h-4 text-gray-500 mt-2" />
         <p className="text-sm text-gray-600 mt-2 leading-relaxed">{message}</p>

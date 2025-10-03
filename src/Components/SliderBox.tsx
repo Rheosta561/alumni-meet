@@ -1,21 +1,25 @@
 import  { useEffect, useState } from "react";
+import classof1967 from "../assets/img/Events/Class of 1967 event.jpg";
+import homecoming2022 from "../assets/img/Events/HomeComing2022.png";
+import mahesh from "../assets/img/Events/Mahesh.jpg"
+import rajSoin from "../assets/img/Events/Raj Soin Event.jpg";
 
 // Example PromoCard data for DTU Alumni Meet 2025
 const promos = [
   {
-    title: "Welcome Alumni",
-    description: "Reconnect with your batchmates and relive the memories of DTU.",
-    image: "https://media.gettyimages.com/id/2233063994/photo/northwestern-university-president-michael-schill-attends-a-faculty-senate-meeting-on-april-9.jpg?s=612x612&w=0&k=20&c=DZsIJyLuT6keKisW9U7mNbtRfNclSCbP0YztEz5TNLQ=",
+    title: "Class of 1967 Reunion",
+    description: "Reconnect with your batchmates and relive the golden days at DTU.",
+    image: classof1967,
   },
   {
-    title: "Networking & Fun",
-    description: "Engage in workshops, competitions, and networking sessions with alumni across the globe.",
-    image: "https://media.gettyimages.com/id/2226386029/photo/parents-greeting-their-daughter%C3%A2s-boyfriend-with-a-handshake-on-their-graduation-day.jpg?s=612x612&w=0&k=20&c=kcGwHFa0o4nw7mqwCg4EP3JImM5dLmUIjblkcWoHmGI=",
+    title: "Homecoming 2022 Highlights",
+    description: "A glimpse into the memorable moments from our last grand event.",
+    image: homecoming2022,
   },
   {
-    title: "Gala Night",
-    description: "Enjoy the grand gala night with music, dance, and celebration of DTU spirit.",
-    image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600",
+    title: "Raj Soin Hall Inauguration",
+    description: "Celebrating the legacy of a distinguished alumnus and benefactor.",
+    image: rajSoin,
   },
 ];
 

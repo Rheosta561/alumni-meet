@@ -39,23 +39,32 @@ function AboutSection() {
       </SectionWrapper>
 
       <SectionWrapper title="Notable Alumni">
-        <div className="overflow-hidden relative">
-          <div className="flex gap-6 animate-scroll whitespace-nowrap">
-            {alumniList.concat(alumniList).map((a, idx) => (
-              <div key={idx} className="inline-block">
-                <AlumniCard name={a.name} role={a.role} image={a.image} />
-              </div>
-            ))}
-          </div>
+  <div className="overflow-hidden relative">
+    <div className="flex whitespace-nowrap animate-scroll gap-6">
+      {Array(10).fill(alumniList).flat().map((a, idx) => (
+        <div key={`a-${idx}`} className="inline-block">
+          <AlumniCard name={a.name} role={a.role} image={a.image} />
         </div>
-      </SectionWrapper>
+      ))}
+      {/* Duplicate for seamless looping */}
+      {Array(10).fill(alumniList).flat().map((a, idx) => (
+        <div key={`b-${idx}`} className="inline-block">
+          <AlumniCard name={a.name} role={a.role} image={a.image} />
+        </div>
+      ))}
+    </div>
+  </div>
+</SectionWrapper>
+
+
+
 
       {/* Tailwind animation */}
       <style>
         {`
           @keyframes scroll {
             0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
+            100% { transform: translateX(-100%); }
           }
           .animate-scroll {
             display: flex;

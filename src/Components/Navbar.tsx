@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import { Menu, UserPlus, X } from "lucide-react";
 import { Button } from "./ui/button";
-import Logo from "../assets/DTU LOGO.jpeg";
+import Logo from "../assets/img/dtu-logo.png";
 
 interface NavbarProps {
   onLinkClick?: (sectionId: string) => void;
