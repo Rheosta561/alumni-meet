@@ -2,7 +2,7 @@ import { Calendar, MapPin, Users, Mic, Music, Trophy, Medal, Star, Award as Awar
 
 
 import dean from "./assets/img/dean.jpg"
-import mahesh from "./assets/img/Events/Mahesh.jpg"
+import mahesh from "./assets/img/Events/HomeComing2022.png"
 export const EVENT_NAME = "AlumniMeet2025";
 
 
