@@ -7,7 +7,7 @@ import rajSoin from "../assets/img/Events/Raj Soin Event.jpg";
 // Example PromoCard data for DTU Alumni Meet 2025
 const promos = [
   {
-    title: "Class of 1967 Reunion",
+    title: "Class of 1967 Reunion ",
     description: "Reconnect with your batchmates and relive the golden days at DTU.",
     image: classof1967,
   },
