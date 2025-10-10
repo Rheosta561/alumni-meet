@@ -45,7 +45,7 @@ export const eventNotification = {
   description: "Join us for the grand celebration of DTU alumni legacy. Reconnect with old friends, attend keynote sessions, and enjoy cultural performances!",
   tags: ["Networking", "Keynote", "Cultural"],
   buttonText: "Register Now",
-  buttonRoute: "https://docs.google.com/forms/d/1HGD5vO27g_SzQK2DdD6SHfE8-nPUgYUK7rx4ECzVd9E/edit?ts=68da709f"
+  buttonRoute: "https://forms.gle/Vi5FaFvsWkQkpW9g7"
 };
 
 // Awards
@@ -65,7 +65,7 @@ export const awards: Award[] = [
     icon: Trophy,
     image: "https://images.unsplash.com/photo-1485217988980-11786ced9454", // Golden honor moment
     tags: ["Prestige", "Honor", "Legacy"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034nt"
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"
   },
   {
     title: "Distinguished Alumni Award",
@@ -73,7 +73,7 @@ export const awards: Award[] = [
     icon: Star,
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216", // Professional success
     tags: ["Excellence", "Recognition", "Impact"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034ni"
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"
   },
   {
     title: "Young Alumni Award",
@@ -81,35 +81,35 @@ export const awards: Award[] = [
     icon: Medal,
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4", // Young achiever
     tags: ["Youth", "Leadership", "Innovation"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034"},
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"},
   {
     title: "Global Impact Award",
     description: "For alumni whose contributions have made a significant difference at an international scale.",
     icon: AwardIcon,
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee", // Global change
     tags: ["Global", "Change Maker", "Humanity"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034"},
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"},
   {
     title: "Alumni Fellow Award",
     description: "Recognizing outstanding service and commitment towards the DCE-DTU community.",
     icon: Users,
     image: "https://images.unsplash.com/photo-1556761175-4b46a572b786", // Team/community spirit
     tags: ["Service", "Community", "Commitment"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034"},
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"},
   {
     title: "Alumni Innovation Award",
     description: "Honoring groundbreaking innovations that demonstrate exceptional creativity and real-world impact.",
     icon: Mic,
     image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c", // Futuristic innovation
     tags: ["Innovation", "Technology", "R&D"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034" },
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7" },
   {
     title: "Alumni Entrepreneurial Award",
     description: "Recognizing bold entrepreneurial ventures that demonstrate vision, success, and leadership.",
     icon: Trophy,
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978", // Startup leadership
     tags: ["Entrepreneurship", "Startups", "Leadership"],
-    applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSftqh50uiVNzEoGBf59tXPJkVIrt-F2LuXG9-HnA2txdKTHzw/viewform?usp=sharing&ouid=107667264678271525034"
+    applyLink: "https://forms.gle/Vi5FaFvsWkQkpW9g7"
   }
 ];
 

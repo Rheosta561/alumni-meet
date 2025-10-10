@@ -1,4 +1,3 @@
-
 import { X } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -36,32 +35,33 @@ export default function EventNotificationModal({
           <X className="w-5 h-5" />
         </button>
 
-        {/* Content */}
-        {image ? (
+        {/* Image (if present) */}
+        {image && (
           <img
             src={image}
             alt={title || "Event Image"}
             className="w-full h-64 object-cover rounded-md mb-4"
           />
-        ) : (
-          <div className="space-y-4 text-center">
-            {title && <h2 className="text-xl font-semibold">{title}</h2>}
-            {description && <p className="text-gray-600 text-sm">{description}</p>}
-
-            {tags && tags.length > 0 && (
-              <div className="flex flex-wrap justify-center gap-2 mt-2">
-                {tags.map((tag, idx) => (
-                  <span
-                    key={idx}
-                    className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-          </div>
         )}
+
+        {/* Details (always shown) */}
+        <div className="space-y-4 text-center">
+          {title && <h2 className="text-xl font-semibold">{title}</h2>}
+          {description && <p className="text-gray-600 text-sm">{description}</p>}
+
+          {tags && tags.length > 0 && (
+            <div className="flex flex-wrap justify-center gap-2 mt-2">
+              {tags.map((tag, idx) => (
+                <span
+                  key={idx}
+                  className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Action Button */}
         <div className="mt-6 flex justify-center">
